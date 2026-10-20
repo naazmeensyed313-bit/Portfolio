@@ -320,8 +320,8 @@ const PROJECT_DATABASE = {
       { label: 'Impact Rating', value: '9.6 / 10' },
       { label: 'Tutoring Latency', value: '< 1.4s' }
     ],
-    github: 'https://github.com/naazmeen-syed',
-    demo: 'https://github.com/naazmeen-syed'
+    github: 'https://github.com/naazmeensyed313-bit/CodeVerseAI',
+    demo: 'https://github.com/naazmeensyed313-bit/CodeVerseAI'
   },
   'findora-ai': {
     title: 'FindOra',
@@ -348,8 +348,8 @@ const PROJECT_DATABASE = {
       { label: 'Match Affinity', value: '94% Match' },
       { label: 'Auth Security', value: 'SHA-256' }
     ],
-    github: 'https://github.com/naazmeen-syed',
-    demo: 'https://github.com/naazmeen-syed'
+    github: 'https://github.com/naazmeensyed313-bit/FindOra-Smart-Lost-and-Found-Sytem',
+    demo: 'https://github.com/naazmeensyed313-bit/FindOra-Smart-Lost-and-Found-Sytem'
   },
   'nexora': {
     title: 'Nexora',
@@ -376,8 +376,8 @@ const PROJECT_DATABASE = {
       { label: 'Risk Vectors', value: '8 Evaluated' },
       { label: 'Render Speed', value: '< 150ms' }
     ],
-    github: 'https://github.com/naazmeen-syed',
-    demo: 'https://github.com/naazmeen-syed'
+    github: 'https://github.com/naazmeensyed313-bit/NEXORA',
+    demo: 'https://github.com/naazmeensyed313-bit/NEXORA'
   },
   'focusflow': {
     title: 'FocusFlow',
@@ -404,8 +404,8 @@ const PROJECT_DATABASE = {
       { label: 'Architecture', value: '100% Offline' },
       { label: 'Data Storage', value: 'JSON Local' }
     ],
-    github: 'https://github.com/naazmeen-syed',
-    demo: 'https://github.com/naazmeen-syed'
+    github: 'https://github.com/naazmeensyed313-bit/FocusFlow',
+    demo: 'https://github.com/naazmeensyed313-bit/FocusFlow'
   }
 };
 
