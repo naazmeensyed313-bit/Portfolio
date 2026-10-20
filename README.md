@@ -77,7 +77,7 @@ Explore the live portfolio here: **[portfolio-ashen-omega-10.vercel.app](https:/
 ## 🏆 Honors & Hackathons
 
 - 🥉 **3rd Rank in AI-thon Competition** &bull; Collegiate podium finish for applied software architecture.
-- 🌟 **Top Prompt Generator Award** &bull; Conferred by the Google Student Ambassador Program.
+- 🌟 **Swiggy Campus Catalyst** &bull; Selected to lead student engagement initiatives and collegiate community activations.
 - 🏅 **AMD Developer Hackathon: ACT II** &bull; Finalist in Track 2 (Multimodal Comprehension & Captioning).
 - 🏅 **Certifications**: Oracle Cloud Infrastructure Foundations, Microsoft Azure, IBM SkillsBuild, GitHub Copilot Professional.
 
