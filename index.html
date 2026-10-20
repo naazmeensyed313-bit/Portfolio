@@ -1,0 +1,2074 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naazmeen — Software Developer Portfolio</title>
+  <meta name="description" content="Official portfolio of Naazmeen — Software Developer &amp; Full-Stack. Skilled in Java, Python, React, and modern software engineering." />
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Naazmeen — Software Developer Portfolio" />
+  <meta property="og:description" content="Portfolio of Naazmeen — Software Developer &amp; Full-Stack." />
+  <meta name="theme-color" content="#2563eb" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <!-- Ambient Background Mesh -->
+  <div class="ambient-mesh"></div>
+
+  <!-- ========================================================================
+       NAVIGATION BAR
+       ======================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="Naazmeen Portfolio Home">
+        <span class="logo-badge">N</span>
+        <span>Naazmeen</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#internships" class="nav-link">Experience</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#achievements" class="nav-link">Honors</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Toggle & Resume Button) -->
+      <div class="nav-actions">
+        <!-- Theme Switcher -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <!-- Resume Modal Trigger -->
+        <button class="btn btn-primary btn-sm open-resume-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+          </svg>
+          <span>Resume</span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open mobile navigation" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="#about" class="mobile-nav-link">About Me</a>
+    <a href="#skills" class="mobile-nav-link">Technical Skills</a>
+    <a href="#projects" class="mobile-nav-link">Selected Projects</a>
+    <a href="#internships" class="mobile-nav-link">Industry Experience</a>
+    <a href="#certifications" class="mobile-nav-link">Certifications</a>
+    <a href="#achievements" class="mobile-nav-link">Honors &amp; Awards</a>
+    <a href="#education" class="mobile-nav-link">Education &amp; Specialization</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+    <div style="padding-top: 0.5rem; display: flex; gap: 0.75rem;">
+      <button class="btn btn-primary open-resume-btn" style="width: 100%;">View Resume</button>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       HERO SECTION
+       ======================================================================== -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <!-- Left: Headline & Bio -->
+      <div class="hero-content">
+        <!-- Recruiter Status -->
+        <div class="recruiter-pill">
+          <span class="pulse-dot"></span>
+          <span>Available for Internships &amp; Full-Time Roles</span>
+          <span style="opacity: 0.4;">/</span>
+          <span style="font-weight: 500;">Class of 2027</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I&apos;m <span class="gradient-text">Naazmeen</span>
+        </h1>
+
+        <p class="hero-subhead">
+          Software Developer &bull; Full-Stack
+        </p>
+
+        <p class="hero-bio">
+          Passionate about architecting scalable software systems, engineering modern responsive web applications, and writing clean, efficient code with real-world impact. Grounded in robust Computer Science fundamentals and practical software engineering.
+        </p>
+
+        <!-- Quick Location & Email Strip -->
+        <div class="hero-contact-strip">
+          <span class="strip-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Hyderabad, Telangana, India</span>
+          </span>
+
+          <span style="opacity: 0.3;">/</span>
+
+          <button class="copy-strip-btn copy-trigger" data-copy-text="naazmeensyed313@gmail.com" title="Click to copy email address">
+            <span class="copy-feedback" style="display: inline-flex; align-items: center; gap: 0.3rem;">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>naazmeensyed313@gmail.com</span>
+            </span>
+          </button>
+        </div>
+
+        <!-- Action CTAs -->
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>View Projects</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+          </a>
+
+          <button class="btn btn-outline open-resume-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+            <span>View &amp; Download Resume</span>
+          </button>
+
+          <a href="https://github.com/naazmeen-syed" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="GitHub Profile">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+            <span>GitHub</span>
+          </a>
+
+          <a href="https://linkedin.com/in/naazmeen-syed" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="LinkedIn Profile">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+
+        <!-- Trending Developer Metric Bar -->
+        <div class="hero-stats-bar">
+          <div class="stat-box">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Featured Projects</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Tech Internships</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">#3</div>
+            <div class="stat-label">AI-thon Podium</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">7+</div>
+            <div class="stat-label">Industry Certs</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Interactive Developer Code Terminal -->
+      <div class="hero-visual">
+        <div class="terminal-window">
+          <!-- Terminal Topbar -->
+          <div class="terminal-topbar">
+            <div class="terminal-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+
+            <!-- Terminal Tabs -->
+            <div class="terminal-tabs">
+              <button class="terminal-tab active" data-target="view-ts">engineer.ts</button>
+              <button class="terminal-tab" data-target="view-json">tech_stack.json</button>
+              <button class="terminal-tab" data-target="view-sh">contact.sh</button>
+            </div>
+          </div>
+
+          <!-- Terminal Body -->
+          <div class="terminal-body">
+            <!-- View 1: TypeScript Profile -->
+            <div class="code-view active" id="view-ts">
+              <p><span class="tok-comment">// Candidate Profile: Software Engineering</span></p>
+              <p><span class="tok-kw">interface</span> <span class="tok-var">SoftwareEngineer</span> <span class="tok-punct">{</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">name</span><span class="tok-punct">:</span> <span class="tok-str">"Naazmeen"</span><span class="tok-punct">;</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">role</span><span class="tok-punct">:</span> <span class="tok-str">"Software Developer &amp; Full-Stack Engineer"</span><span class="tok-punct">;</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">education</span><span class="tok-punct">:</span> <span class="tok-str">"Stanley College of Engineering"</span><span class="tok-punct">;</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">graduation</span><span class="tok-punct">:</span> <span class="tok-str">"Class of 2027"</span><span class="tok-punct">;</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">status</span><span class="tok-punct">:</span> <span class="tok-str">"Open to Internships &amp; Entry-Level Roles"</span><span class="tok-punct">;</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">internshipsCompleted</span><span class="tok-punct">:</span> <span class="tok-num">4</span><span class="tok-punct">;</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">laurels</span><span class="tok-punct">:</span> <span class="tok-arr">[</span></p>
+              <p style="padding-left: 2.25rem;"><span class="tok-str">"3rd Rank in AI-thon Competition"</span><span class="tok-punct">,</span></p>
+              <p style="padding-left: 2.25rem;"><span class="tok-str">"Top Prompt Generator (Google Program)"</span><span class="tok-punct">,</span></p>
+              <p style="padding-left: 2.25rem;"><span class="tok-str">"AMD Developer Hackathon Finalist"</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-arr">]</span><span class="tok-punct">;</span></p>
+              <p><span class="tok-punct">}</span></p>
+            </div>
+
+            <!-- View 2: JSON Stack -->
+            <div class="code-view" id="view-json">
+              <p><span class="tok-punct">{</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">"core_languages"</span><span class="tok-punct">:</span> <span class="tok-arr">[</span><span class="tok-str">"Java (OOP)"</span><span class="tok-punct">,</span> <span class="tok-str">"Python"</span><span class="tok-punct">,</span> <span class="tok-str">"JavaScript ES6+"</span><span class="tok-punct">,</span> <span class="tok-str">"SQL"</span><span class="tok-arr">]</span><span class="tok-punct">,</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">"frontend_ui"</span><span class="tok-punct">:</span> <span class="tok-arr">[</span><span class="tok-str">"React"</span><span class="tok-punct">,</span> <span class="tok-str">"Tailwind CSS"</span><span class="tok-punct">,</span> <span class="tok-str">"Responsive Web"</span><span class="tok-arr">]</span><span class="tok-punct">,</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">"backend_services"</span><span class="tok-punct">:</span> <span class="tok-arr">[</span><span class="tok-str">"Python Flask REST"</span><span class="tok-punct">,</span> <span class="tok-str">"Streamlit"</span><span class="tok-punct">,</span> <span class="tok-str">"SQLite"</span><span class="tok-arr">]</span><span class="tok-punct">,</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">"ai_multimodal"</span><span class="tok-punct">:</span> <span class="tok-arr">[</span><span class="tok-str">"Google Gemini Vision"</span><span class="tok-punct">,</span> <span class="tok-str">"Whisper Audio"</span><span class="tok-punct">,</span> <span class="tok-str">"OpenCV"</span><span class="tok-arr">]</span><span class="tok-punct">,</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">"security_auth"</span><span class="tok-punct">:</span> <span class="tok-arr">[</span><span class="tok-str">"SHA-256 Hashing"</span><span class="tok-punct">,</span> <span class="tok-str">"Defensive Engineering"</span><span class="tok-arr">]</span><span class="tok-punct">,</span></p>
+              <p style="padding-left: 1.25rem;"><span class="tok-prop">"developer_tools"</span><span class="tok-punct">:</span> <span class="tok-arr">[</span><span class="tok-str">"Git &amp; GitHub"</span><span class="tok-punct">,</span> <span class="tok-str">"VS Code"</span><span class="tok-punct">,</span> <span class="tok-str">"GitHub Copilot"</span><span class="tok-arr">]</span></p>
+              <p><span class="tok-punct">}</span></p>
+            </div>
+
+            <!-- View 3: Shell Endpoints -->
+            <div class="code-view" id="view-sh">
+              <p><span class="tok-cmd">$ whoami</span></p>
+              <p style="color: #cbd5e1;">naazmeen-syed &bull; Software Developer &amp; Full-Stack Engineer</p>
+              <p style="margin-top: 0.5rem;"><span class="tok-cmd">$ echo $REACH_OUT</span></p>
+              <p style="color: #60a5fa;">naazmeensyed313@gmail.com</p>
+              <p style="margin-top: 0.5rem;"><span class="tok-cmd">$ echo $PHONE</span></p>
+              <p style="color: #cbd5e1;">+91 9059869051</p>
+              <p style="margin-top: 0.5rem;"><span class="tok-cmd">$ echo $LOCATION</span></p>
+              <p style="color: #cbd5e1;">Hyderabad, Telangana, India</p>
+              <p style="margin-top: 0.5rem;"><span class="tok-cmd">$ git status</span></p>
+              <p style="color: #34d399;">On branch main &bull; Ready for production software engineering</p>
+            </div>
+          </div>
+
+          <!-- Terminal Footer Strip -->
+          <div class="terminal-footer-strip">
+            <span style="display: flex; align-items: center; gap: 0.35rem;">
+              <span style="width: 6px; height: 6px; border-radius: 9999px; background: #10b981; display: inline-block;"></span>
+              <span>Available for 2026/2027 Roles</span>
+            </span>
+            <span>TypeScript &bull; UTF-8</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recognition & Trust Strip -->
+    <div class="container">
+      <div class="trust-strip">
+        <div class="trust-label">Industry Recognitions &bull; Program Accreditations &bull; Credentials</div>
+        <div class="trust-badges">
+          <span class="trust-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            <span>Google Student Ambassador Laureate</span>
+          </span>
+          <span class="trust-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+            <span>3rd Rank in AI-thon</span>
+          </span>
+          <span class="trust-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+            <span>AMD Developer Hackathon Track 2</span>
+          </span>
+          <span class="trust-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <span>Oracle OCI Associate Certified</span>
+          </span>
+          <span class="trust-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <span>Microsoft Azure AI &amp; GenAI Certified</span>
+          </span>
+          <span class="trust-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <span>GitHub Copilot Professional Certified</span>
+          </span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       01. ABOUT ME
+       ======================================================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01. Background &amp; Philosophy</span>
+        <h2 class="section-title">
+          Building software with algorithmic rigor, user empathy, and pragmatic AI
+        </h2>
+        <p class="section-desc">
+          Balancing theoretical Computer Science fundamentals with rapid production execution across full-stack applications and reliable software systems.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Story Narrative -->
+        <div class="about-narrative">
+          <p>
+            I bridge theoretical core fundamentals—Data Structures &amp; Algorithms, Object-Oriented Software Design, Operating Systems, and Relational Database Systems—with practical, modern software engineering at <strong>Stanley College of Engineering and Technology for Women, Hyderabad</strong>.
+          </p>
+
+          <p>
+            Over the course of <strong>4 engineering internships</strong> with organizations like <strong>Indian Servers Pvt. Ltd.</strong>, <strong>InternPe</strong>, <strong>SyntecxHub</strong>, and <strong>Cognifyz Technologies</strong>, I have written modular Java applications, engineered Python automation pipelines, built lost-and-found recovery portals, and developed AI-powered educational tools.
+          </p>
+
+          <p>
+            My engineering mindset prioritizes clarity over unnecessary complexity: writing clean, well-tested code, crafting intuitive interfaces, and applying Generative AI where it delivers tangible value—such as contextual CS tutoring in <strong>CodeVerse AI</strong> and automated heuristic matching in <strong>FindOra</strong>.
+          </p>
+
+          <!-- Fast Facts Grid -->
+          <div class="fast-facts-grid">
+            <div class="fact-box">
+              <div class="fact-label">Institution</div>
+              <div class="fact-value">Stanley College of Engg. &amp; Tech</div>
+              <div class="fact-sub">Hyderabad, Telangana &bull; Affiliated to OU</div>
+            </div>
+
+            <div class="fact-box">
+              <div class="fact-label">Target Roles</div>
+              <div class="fact-value">Software Dev &bull; Full-Stack</div>
+              <div class="fact-sub">Internships &amp; Entry-Level (Class of 2027)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Core Technical Pillars -->
+        <div class="about-pillars">
+          <div class="pillars-title">Core Technical Strengths</div>
+          <div class="pillars-list">
+            <!-- Pillar 1 -->
+            <div class="pillar-card">
+              <svg class="pillar-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+              <div>
+                <div class="pillar-title">Software Development &amp; Architecture</div>
+                <div class="pillar-desc">
+                  Grounded in robust Object-Oriented Programming (OOP) in Java and modular Python design. Focused on separation of concerns, data structure efficiency, and testable systems.
+                </div>
+              </div>
+            </div>
+
+            <!-- Pillar 2 -->
+            <div class="pillar-card">
+              <svg class="pillar-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+              <div>
+                <div class="pillar-title">Full-Stack &amp; Modern Frontend</div>
+                <div class="pillar-desc">
+                  Building accessible, responsive user interfaces with modern React, JavaScript, and Tailwind CSS, backed by lightweight Python Flask REST APIs and SQLite databases.
+                </div>
+              </div>
+            </div>
+
+            <!-- Pillar 3 -->
+            <div class="pillar-card">
+              <svg class="pillar-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+              <div>
+                <div class="pillar-title">Generative AI &amp; Multimodal Pipelines</div>
+                <div class="pillar-desc">
+                  Hands-on experience integrating Google Gemini API and multimodal video/speech processing. Conferred the Top Prompt Generator Award and 3rd Rank in AI-thon.
+                </div>
+              </div>
+            </div>
+
+            <!-- Pillar 4 -->
+            <div class="pillar-card">
+              <svg class="pillar-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+              <div>
+                <div class="pillar-title">Security-Minded Engineering</div>
+                <div class="pillar-desc">
+                  Practical exposure to cybersecurity defense principles, cryptographic password hashing (SHA-256 for user authentication), and safe AI deployment guardrails.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       02. TECHNICAL SKILLS
+       ======================================================================== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="toolbar-header">
+        <div>
+          <span class="section-tag">02. Technical Competencies</span>
+          <h2 class="section-title">Verified Technical Skills</h2>
+          <p class="section-desc">
+            Technologies and frameworks applied across academic coursework at Stanley College, 4 internships, and competitive hackathons.
+          </p>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-wrapper">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="skills-search-input" class="search-input" placeholder="Filter skills (e.g. Java, Gemini, React)..." />
+          <span id="skills-search-clear" class="search-clear">&times;</span>
+        </div>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="tab-btn skills-tab-btn active" data-category="all">All Skills</button>
+        <button class="tab-btn skills-tab-btn" data-category="languages">Programming Languages</button>
+        <button class="tab-btn skills-tab-btn" data-category="web-frameworks">Web &amp; Frameworks</button>
+        <button class="tab-btn skills-tab-btn" data-category="ai-genai">AI &amp; Generative AI</button>
+        <button class="tab-btn skills-tab-btn" data-category="databases-tools">Databases &amp; Tools</button>
+      </div>
+
+      <!-- Skills Display Groups -->
+      <div id="skills-container">
+        <!-- 1. Languages -->
+        <div class="skills-category-group" data-category="languages">
+          <div class="category-header">
+            <svg class="category-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="4 17 10 11 4 5"></polyline>
+              <line x1="12" y1="19" x2="20" y2="19"></line>
+            </svg>
+            <span>Programming Languages</span>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  Java
+                </span>
+                <span class="level-badge">Advanced</span>
+              </div>
+              <p class="skill-usage">OOP, Enterprise Architecture, Data Structures &amp; Algorithms</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  Python
+                </span>
+                <span class="level-badge">Advanced</span>
+              </div>
+              <p class="skill-usage">AI/ML, Scripting, Flask, Streamlit, Pandas, OpenCV</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  JavaScript (ES6+)
+                </span>
+                <span class="level-badge">Proficient</span>
+              </div>
+              <p class="skill-usage">Modern DOM, Asynchronous UI, Event Loops, Modular Frontends</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  SQL
+                </span>
+                <span class="level-badge">Proficient</span>
+              </div>
+              <p class="skill-usage">Complex Joins, Relational Schemas, Constraints, SQLite Queries</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  HTML5 &amp; CSS3
+                </span>
+                <span class="level-badge">Advanced</span>
+              </div>
+              <p class="skill-usage">Responsive Design, Semantic Markup, Accessibility, Modern CSS</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  C Programming
+                </span>
+                <span class="level-badge">Working Knowledge</span>
+              </div>
+              <p class="skill-usage">Memory Management, Pointers, Low-Level Logic, CS Fundamentals</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Web & Frameworks -->
+        <div class="skills-category-group" data-category="web-frameworks">
+          <div class="category-header">
+            <svg class="category-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+            <span>Web &amp; Frameworks</span>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  React
+                </span>
+                <span class="level-badge">Proficient</span>
+              </div>
+              <p class="skill-usage">Component Lifecycle, Hooks, State Management, Clean Architecture</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  Tailwind CSS
+                </span>
+                <span class="level-badge">Advanced</span>
+              </div>
+              <p class="skill-usage">Utility Systems, Responsive Layouts, Dark Mode, Custom Themes</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  Flask (Python)
+                </span>
+                <span class="level-badge">Proficient</span>
+              </div>
+              <p class="skill-usage">Python REST APIs, Gemini Model Proxy, Endpoint Routing, JSON</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  Streamlit
+                </span>
+                <span class="level-badge">Advanced</span>
+              </div>
+              <p class="skill-usage">Rapid Data Portals, Machine Learning Interfaces, Interactive UIs</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. AI & Generative AI -->
+        <div class="skills-category-group" data-category="ai-genai">
+          <div class="category-header">
+            <svg class="category-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+            <span>AI &amp; Generative AI</span>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  Google Gemini API
+                </span>
+                <span class="level-badge">Advanced</span>
+              </div>
+              <p class="skill-usage">Multimodal Video Analysis, Structured Prompting, Context Tutoring</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  Prompt Engineering
+                </span>
+                <span class="level-badge">Award Winner</span>
+              </div>
+              <p class="skill-usage">Top Prompt Generator Award (Google Student Ambassador), Few-Shot</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  Multimodal Processing
+                </span>
+                <span class="level-badge">Advanced</span>
+              </div>
+              <p class="skill-usage">Audio-Visual Scene Understanding, Whisper Speech-to-Text, OpenCV</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  OpenAI API
+                </span>
+                <span class="level-badge">Proficient</span>
+              </div>
+              <p class="skill-usage">Structured Outputs, Function Calling, System Instructions</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Databases & Tools -->
+        <div class="skills-category-group" data-category="databases-tools">
+          <div class="category-header">
+            <svg class="category-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+            </svg>
+            <span>Databases &amp; Developer Tools</span>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  SQLite
+                </span>
+                <span class="level-badge">Proficient</span>
+              </div>
+              <p class="skill-usage">Embedded DB Engines, Lightweight Schemas, ACID Transactions</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  Git &amp; GitHub
+                </span>
+                <span class="level-badge">Proficient</span>
+              </div>
+              <p class="skill-usage">Version Control, Branching, Pull Requests, Collaborative Git Flow</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  VS Code &amp; Copilot
+                </span>
+                <span class="level-badge">Advanced</span>
+              </div>
+              <p class="skill-usage">Certified GitHub Copilot Professional, Debugging, Extensions</p>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-name">
+                  <svg class="verified-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                  MongoDB
+                </span>
+                <span class="level-badge">Working Knowledge</span>
+              </div>
+              <p class="skill-usage">Document Store, NoSQL Collections, JSON Schema Modeling</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       03. SELECTED ENGINEERING PROJECTS
+       ======================================================================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="toolbar-header">
+        <div>
+          <span class="section-tag">03. Selected Engineering Projects</span>
+          <h2 class="section-title">Featured Software &amp; AI Systems</h2>
+          <p class="section-desc">
+            Production-focused web applications, educational platforms, and AI hackathon systems developed using Python, Flask, React, and Google Gemini API.
+          </p>
+        </div>
+
+        <!-- Project Search Input -->
+        <div class="search-wrapper">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="projects-search-input" class="search-input" placeholder="Search projects by tech or title..." />
+          <span id="projects-search-clear" class="search-clear">&times;</span>
+        </div>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="tab-btn projects-tab-btn active" data-category="all">All Projects (4)</button>
+        <button class="tab-btn projects-tab-btn" data-category="ai">AI &amp; Systems (2)</button>
+        <button class="tab-btn projects-tab-btn" data-category="web">Web &amp; Frontend (2)</button>
+        <button class="tab-btn projects-tab-btn" data-category="python">Python &amp; Desktop (2)</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid" id="projects-grid">
+        <!-- PROJECT 1: CodeVerse AI -->
+        <article class="project-card" data-categories="ai,web" data-tech="Python Flask Google Gemini API JavaScript Three.js Tailwind CSS SQLite">
+          <div class="project-visual-header banner-codeverse">
+            <div class="project-mockup-tag">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+              <span>CodeVerse AI &bull; Interactive CS Tutor</span>
+            </div>
+          </div>
+
+          <div class="project-card-content">
+            <div class="project-category-row">
+              <span class="project-cat-badge">AI &amp; Full-Stack</span>
+              <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-cyan); font-weight: 600;">Featured AI</span>
+            </div>
+
+            <h3 class="project-title">CodeVerse AI</h3>
+            <p class="project-subtitle">AI-Powered Computer Science Learning Platform</p>
+
+            <p class="project-description">
+              An intelligent CS learning platform featuring interactive algorithm visualizations, memory &amp; CPU hardware simulations, a live SQL playground, and real-time context-aware AI tutoring powered by the Google Gemini API.
+            </p>
+
+            <div class="project-tech-chips">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">Flask</span>
+              <span class="tech-chip">Gemini API</span>
+              <span class="tech-chip">Three.js</span>
+              <span class="tech-chip">SQLite</span>
+              <span class="tech-chip">Tailwind</span>
+            </div>
+
+            <div class="project-actions-row">
+              <a href="https://github.com/naazmeen-syed" target="_blank" rel="noopener noreferrer" class="btn btn-github btn-sm" title="Open repository on GitHub">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>Open on GitHub</span>
+              </a>
+
+              <button class="btn btn-primary btn-sm open-project-modal" data-project="codeverse-ai">
+                <span>View Specs</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 2: FindOra -->
+        <article class="project-card" data-categories="ai,python" data-tech="Python Streamlit SQLite Pandas SHA256 Hashing">
+          <div class="project-visual-header banner-findora">
+            <div class="project-mockup-tag">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <span>FindOra &bull; Lost &amp; Found Heuristic Matching</span>
+            </div>
+          </div>
+
+          <div class="project-card-content">
+            <div class="project-category-row">
+              <span class="project-cat-badge">Smart Systems &amp; Python</span>
+              <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-emerald); font-weight: 600;">Campus Innovation</span>
+            </div>
+
+            <h3 class="project-title">FindOra</h3>
+            <p class="project-subtitle">Campus Lost &amp; Found Portal with Automated Pairing</p>
+
+            <p class="project-description">
+              A comprehensive campus lost-and-found management portal built with secure cryptographic user authentication and a custom smart-matching heuristic algorithm that pairs lost and found reports by category, color, location, and description.
+            </p>
+
+            <div class="project-tech-chips">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">Streamlit</span>
+              <span class="tech-chip">SQLite</span>
+              <span class="tech-chip">Pandas</span>
+              <span class="tech-chip">SHA-256</span>
+            </div>
+
+            <div class="project-actions-row">
+              <a href="https://github.com/naazmeen-syed" target="_blank" rel="noopener noreferrer" class="btn btn-github btn-sm" title="Open repository on GitHub">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>Open on GitHub</span>
+              </a>
+
+              <button class="btn btn-primary btn-sm open-project-modal" data-project="findora-ai">
+                <span>View Specs</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 3: Nexora -->
+        <article class="project-card" data-categories="web" data-tech="JavaScript HTML5 CSS3 Modern UI Data Visualization">
+          <div class="project-visual-header banner-nexora">
+            <div class="project-mockup-tag">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+              <span>Nexora &bull; Startup Viability Visualizer</span>
+            </div>
+          </div>
+
+          <div class="project-card-content">
+            <div class="project-category-row">
+              <span class="project-cat-badge">Web &amp; Analytics</span>
+              <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-amber); font-weight: 600;">Founder Tools</span>
+            </div>
+
+            <h3 class="project-title">Nexora</h3>
+            <p class="project-subtitle">AI-Powered Startup Idea Analyzer &amp; Viability Visualizer</p>
+
+            <p class="project-description">
+              An interactive web application that evaluates startup concepts and visualizes feasibility, market demand, competitive density, and execution risk through dynamic charts and intuitive UI components.
+            </p>
+
+            <div class="project-tech-chips">
+              <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">HTML5</span>
+              <span class="tech-chip">CSS3</span>
+              <span class="tech-chip">SVG Charts</span>
+              <span class="tech-chip">Analytics</span>
+            </div>
+
+            <div class="project-actions-row">
+              <a href="https://github.com/naazmeen-syed" target="_blank" rel="noopener noreferrer" class="btn btn-github btn-sm" title="Open repository on GitHub">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>Open on GitHub</span>
+              </a>
+
+              <button class="btn btn-primary btn-sm open-project-modal" data-project="nexora">
+                <span>View Specs</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 4: FocusFlow -->
+        <article class="project-card" data-categories="python" data-tech="Python CustomTkinter JSON Persistence Threading">
+          <div class="project-visual-header banner-focusflow">
+            <div class="project-mockup-tag">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span>FocusFlow &bull; Desktop Productivity Suite</span>
+            </div>
+          </div>
+
+          <div class="project-card-content">
+            <div class="project-category-row">
+              <span class="project-cat-badge">Python &amp; Desktop</span>
+              <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent-violet); font-weight: 600;">Offline First</span>
+            </div>
+
+            <h3 class="project-title">FocusFlow</h3>
+            <p class="project-subtitle">Virtual Study Room &amp; Desktop Productivity Suite</p>
+
+            <p class="project-description">
+              A modular desktop productivity software with an integrated Pomodoro focus timer, task manager, notes system, streak tracker, and persistent local data storage using JSON schemas.
+            </p>
+
+            <div class="project-tech-chips">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">CustomTkinter</span>
+              <span class="tech-chip">JSON Storage</span>
+              <span class="tech-chip">Threading</span>
+            </div>
+
+            <div class="project-actions-row">
+              <a href="https://github.com/naazmeen-syed" target="_blank" rel="noopener noreferrer" class="btn btn-github btn-sm" title="Open repository on GitHub">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>Open on GitHub</span>
+              </a>
+
+              <button class="btn btn-primary btn-sm open-project-modal" data-project="focusflow">
+                <span>View Specs</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Empty State -->
+      <div id="projects-empty" style="display: none; text-align: center; padding: 3rem 0; color: var(--text-muted);">
+        <p>No projects match your current filter or search query.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       04. INDUSTRY EXPERIENCE & INTERNSHIPS
+       ======================================================================== -->
+  <section class="section section-alt" id="internships">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04. Industry Experience</span>
+        <h2 class="section-title">Work Experience &amp; Internships</h2>
+        <p class="section-desc">
+          Hands-on software development across 4 engineering internships spanning AI, cybersecurity automation, production Java OOP, and applied Python scripting.
+        </p>
+      </div>
+
+      <div class="timeline-list">
+        <!-- Internship 1: Indian Servers -->
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <div class="timeline-company-strip">
+                <span class="company-name">Indian Servers Pvt. Ltd.</span>
+                <span>&bull;</span>
+                <span>Remote Internship</span>
+              </div>
+              <h3 class="timeline-role">Artificial Intelligence &amp; Cyber Security Intern</h3>
+            </div>
+            <span class="period-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>Apr 2026 – Jun 2026</span>
+            </span>
+          </div>
+
+          <div class="timeline-grid">
+            <div>
+              <ul class="responsibilities-list">
+                <li class="resp-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Gained hands-on exposure to AI and machine learning fundamentals through structured, project-based engineering.</span>
+                </li>
+                <li class="resp-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Explored cybersecurity vulnerability concepts, defense automation, and safe model deployment practices.</span>
+                </li>
+                <li class="resp-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Developed applied scripts to automate repetitive system security checks and dataset preprocessing workflows.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="takeaway-box">
+              <div>
+                <div class="takeaway-label">Core Technologies</div>
+                <div class="takeaway-tech">AI &bull; Machine Learning &bull; Cybersecurity &bull; Python</div>
+              </div>
+              <div class="takeaway-quote">
+                &ldquo;Advanced exposure to real-world AI pipelines and automated security evaluation protocols.&rdquo;
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Internship 2: InternPe -->
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <div class="timeline-company-strip">
+                <span class="company-name">InternPe</span>
+                <span>&bull;</span>
+                <span>Remote Internship</span>
+              </div>
+              <h3 class="timeline-role">Java Programming Intern</h3>
+            </div>
+            <span class="period-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>Apr 2026 – May 2026</span>
+            </span>
+          </div>
+
+          <div class="timeline-grid">
+            <div>
+              <ul class="responsibilities-list">
+                <li class="resp-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Developed Java-based software applications, strictly applying core object-oriented programming concepts and design patterns.</span>
+                </li>
+                <li class="resp-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Implemented robust data validation, algorithmic problem-solving techniques, and exception handling routines.</span>
+                </li>
+                <li class="resp-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Tested and debugged complex logic modules to improve execution speed and memory efficiency.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="takeaway-box">
+              <div>
+                <div class="takeaway-label">Core Technologies</div>
+                <div class="takeaway-tech">Java &bull; OOP &bull; Data Structures &bull; Exception Handling &bull; Algorithms</div>
+              </div>
+              <div class="takeaway-quote">
+                &ldquo;Rigorous object-oriented software engineering and modular Java application architecture.&rdquo;
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Internship 3: SyntecxHub -->
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <div class="timeline-company-strip">
+                <span class="company-name">SyntecxHub</span>
+                <span>&bull;</span>
+                <span>Remote Internship</span>
+              </div>
+              <h3 class="timeline-role">Python Programming Intern</h3>
+            </div>
+            <span class="period-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>Feb 2026 – Mar 2026</span>
+            </span>
+          </div>
+
+          <div class="timeline-grid">
+            <div>
+              <ul class="responsibilities-list">
+                <li class="resp-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Executed intensive Python programming exercises focused on problem-solving, algorithmic efficiency, and logic-building.</span>
+                </li>
+                <li class="resp-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Authored automated utility scripts for data manipulation, file handling, and text parsing.</span>
+                </li>
+                <li class="resp-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Participated in code reviews, optimizing algorithmic time complexity across computational tasks.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="takeaway-box">
+              <div>
+                <div class="takeaway-label">Core Technologies</div>
+                <div class="takeaway-tech">Python &bull; Applied Scripting &bull; Algorithms &bull; File I/O</div>
+              </div>
+              <div class="takeaway-quote">
+                &ldquo;Mastered production Python scripting patterns and algorithmic optimization.&rdquo;
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Internship 4: Cognifyz Technologies -->
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <div class="timeline-company-strip">
+                <span class="company-name">Cognifyz Technologies</span>
+                <span>&bull;</span>
+                <span>Remote Internship</span>
+              </div>
+              <h3 class="timeline-role">Software Development Intern</h3>
+            </div>
+            <span class="period-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>Oct 2025 – Nov 2025</span>
+            </span>
+          </div>
+
+          <div class="timeline-grid">
+            <div>
+              <ul class="responsibilities-list">
+                <li class="resp-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Built and refined Java mini-projects, applying object-oriented design principles in a collaborative development workflow.</span>
+                </li>
+                <li class="resp-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Followed clean code conventions, modular separation of concerns, and version control best practices.</span>
+                </li>
+                <li class="resp-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Documented software component specifications, APIs, and test cases.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="takeaway-box">
+              <div>
+                <div class="takeaway-label">Core Technologies</div>
+                <div class="takeaway-tech">Java &bull; Software Design &bull; OOP &bull; Git &bull; Modular Architecture</div>
+              </div>
+              <div class="takeaway-quote">
+                &ldquo;Hands-on collaborative software development and foundational OOP system design.&rdquo;
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       05. PROFESSIONAL CERTIFICATIONS
+       ======================================================================== -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">05. Verified Credentials</span>
+        <h2 class="section-title">Professional Certifications</h2>
+        <p class="section-desc">
+          Industry credentials in Cloud Infrastructure, Generative AI, AI-Assisted Engineering, and Software Professionalism from Oracle, Google Cloud, Microsoft, and GitHub.
+        </p>
+      </div>
+
+      <div class="cert-grid">
+        <!-- Cert 1: Oracle -->
+        <div class="cert-card">
+          <div>
+            <div class="cert-issuer-strip">
+              <span class="cert-issuer">Oracle</span>
+              <span class="cert-category">AI &amp; Cloud</span>
+            </div>
+            <h3 class="cert-title">Oracle Cloud Infrastructure Foundations Associate</h3>
+            <div class="cert-skills-strip">
+              <div class="cert-skills-label">Competencies Evaluated</div>
+              <div class="cert-skills-list">Cloud Architecture &bull; OCI Services &bull; Security &amp; Compliance &bull; Compute &amp; Storage</div>
+            </div>
+          </div>
+          <div class="cert-verify-strip">
+            <span class="cert-verify-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <span>Credential Verified</span>
+            </span>
+            <span>Official Certification</span>
+          </div>
+        </div>
+
+        <!-- Cert 2: Google Cloud -->
+        <div class="cert-card">
+          <div>
+            <div class="cert-issuer-strip">
+              <span class="cert-issuer">Google Cloud</span>
+              <span class="cert-category">AI &amp; Cloud</span>
+            </div>
+            <h3 class="cert-title">Share Data Using Google Data Cloud</h3>
+            <div class="cert-skills-strip">
+              <div class="cert-skills-label">Competencies Evaluated</div>
+              <div class="cert-skills-list">Google Cloud GenAI Academy &bull; Data Warehousing &bull; Cloud Analytics &bull; Data Sharing</div>
+            </div>
+          </div>
+          <div class="cert-verify-strip">
+            <span class="cert-verify-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <span>Credential Verified</span>
+            </span>
+            <span>Official Certification</span>
+          </div>
+        </div>
+
+        <!-- Cert 3: Microsoft Azure AI -->
+        <div class="cert-card">
+          <div>
+            <div class="cert-issuer-strip">
+              <span class="cert-issuer">Microsoft &amp; LinkedIn</span>
+              <span class="cert-category">AI &amp; Cloud</span>
+            </div>
+            <h3 class="cert-title">Microsoft Azure AI Essentials</h3>
+            <div class="cert-skills-strip">
+              <div class="cert-skills-label">Competencies Evaluated</div>
+              <div class="cert-skills-list">Azure AI Services &bull; Cognitive Services &bull; Responsible AI &bull; Machine Learning</div>
+            </div>
+          </div>
+          <div class="cert-verify-strip">
+            <span class="cert-verify-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <span>Credential Verified</span>
+            </span>
+            <span>Official Certification</span>
+          </div>
+        </div>
+
+        <!-- Cert 4: Career Essentials in GenAI -->
+        <div class="cert-card">
+          <div>
+            <div class="cert-issuer-strip">
+              <span class="cert-issuer">Microsoft &amp; LinkedIn</span>
+              <span class="cert-category">AI &amp; Cloud</span>
+            </div>
+            <h3 class="cert-title">Career Essentials in Generative AI</h3>
+            <div class="cert-skills-strip">
+              <div class="cert-skills-label">Competencies Evaluated</div>
+              <div class="cert-skills-list">Generative AI Fundamentals &bull; Ethical AI &bull; LLM Principles &bull; Prompt Design</div>
+            </div>
+          </div>
+          <div class="cert-verify-strip">
+            <span class="cert-verify-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <span>Credential Verified</span>
+            </span>
+            <span>Official Certification</span>
+          </div>
+        </div>
+
+        <!-- Cert 5: GitHub Copilot -->
+        <div class="cert-card">
+          <div>
+            <div class="cert-issuer-strip">
+              <span class="cert-issuer">GitHub</span>
+              <span class="cert-category">Software Engineering</span>
+            </div>
+            <h3 class="cert-title">Career Essentials in GitHub Copilot Professional Certificate</h3>
+            <div class="cert-skills-strip">
+              <div class="cert-skills-label">Competencies Evaluated</div>
+              <div class="cert-skills-list">AI-Assisted Development &bull; Pair Programming with LLMs &bull; Testing &bull; Productivity</div>
+            </div>
+          </div>
+          <div class="cert-verify-strip">
+            <span class="cert-verify-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <span>Credential Verified</span>
+            </span>
+            <span>Official Certification</span>
+          </div>
+        </div>
+
+        <!-- Cert 6: IBM GenAI -->
+        <div class="cert-card">
+          <div>
+            <div class="cert-issuer-strip">
+              <span class="cert-issuer">IBM SkillsBuild</span>
+              <span class="cert-category">AI &amp; Cloud</span>
+            </div>
+            <h3 class="cert-title">Introduction to Generative AI</h3>
+            <div class="cert-skills-strip">
+              <div class="cert-skills-label">Competencies Evaluated</div>
+              <div class="cert-skills-list">Neural Networks &bull; Foundation Models &bull; Natural Language Processing &bull; AI Ethics</div>
+            </div>
+          </div>
+          <div class="cert-verify-strip">
+            <span class="cert-verify-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <span>Credential Verified</span>
+            </span>
+            <span>Official Certification</span>
+          </div>
+        </div>
+
+        <!-- Cert 7: TCS iON -->
+        <div class="cert-card">
+          <div>
+            <div class="cert-issuer-strip">
+              <span class="cert-issuer">TCS iON</span>
+              <span class="cert-category">Professional</span>
+            </div>
+            <h3 class="cert-title">TCS iON Career Edge — Young Professional</h3>
+            <div class="cert-skills-strip">
+              <div class="cert-skills-label">Competencies Evaluated</div>
+              <div class="cert-skills-list">Business Communication &bull; Problem Solving &bull; Workplace Readiness &bull; Presentation</div>
+            </div>
+          </div>
+          <div class="cert-verify-strip">
+            <span class="cert-verify-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <span>Credential Verified</span>
+            </span>
+            <span>Official Certification</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       06. COMPETITIVE HONORS & ACHIEVEMENTS
+       ======================================================================== -->
+  <section class="section section-alt" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">06. Competitive Honors</span>
+        <h2 class="section-title">Hackathons &amp; Achievements</h2>
+        <p class="section-desc">
+          Podium finishes, recognition from Google and AMD Developer programs, and intense competitive coding hackathons.
+        </p>
+      </div>
+
+      <!-- Featured Laurels (2 Big Cards) -->
+      <div class="podium-grid">
+        <!-- Laurel 1: AI-thon -->
+        <div class="podium-card">
+          <div class="podium-card-header">
+            <span class="laurel-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              <span>Podium Winner &bull; 3rd Rank</span>
+            </span>
+            <span class="podium-year">2026</span>
+          </div>
+          <h3 class="podium-title">3rd Rank in AI-thon Competition</h3>
+          <p class="podium-desc">
+            Secured 3rd rank among competitive engineering collegiate teams by architecting and pitching a high-impact software system under strict hackathon evaluation parameters.
+          </p>
+          <div class="podium-meta">
+            Evaluated on: Problem Feasibility &bull; AI Architecture &bull; Live Code Prototype
+          </div>
+        </div>
+
+        <!-- Laurel 2: Google Award -->
+        <div class="podium-card">
+          <div class="podium-card-header">
+            <span class="laurel-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+              <span>Google Program Laureate</span>
+            </span>
+            <span class="podium-year">2026</span>
+          </div>
+          <h3 class="podium-title">Top Prompt Generator Award</h3>
+          <p class="podium-desc">
+            Awarded Top Prompt Generator by the Google Student Ambassador Program for exceptional skill in prompt structuring, boundary constraint enforcement, and zero-shot/few-shot optimization.
+          </p>
+          <div class="podium-meta">
+            Conferred by: Google Student Ambassador Program
+          </div>
+        </div>
+      </div>
+
+      <!-- Hackathons Grid -->
+      <div class="hackathons-grid">
+        <div class="hackathon-card">
+          <div class="hackathon-meta">
+            <span class="hackathon-org">AMD Developer Program</span>
+            <span class="hackathon-year">2026</span>
+          </div>
+          <h4 class="hackathon-title">AMD Developer Hackathon: ACT II</h4>
+          <p class="hackathon-desc">Competed in Track 2 (Video Captioning &amp; AI Comprehension), developing a real-time multimodal transcription, visual scene indexing, and subtitle synchronization system.</p>
+          <div class="hackathon-highlight">&bull; Track 2 Participant &amp; Finalist</div>
+        </div>
+
+        <div class="hackathon-card">
+          <div class="hackathon-meta">
+            <span class="hackathon-org">The Economic Times</span>
+            <span class="hackathon-year">2026</span>
+          </div>
+          <h4 class="hackathon-title">ET AI Hackathon 2.0</h4>
+          <p class="hackathon-desc">Engineered an AI solution addressing modern economic and enterprise workflow challenges in a national-level competition organized by The Economic Times.</p>
+        </div>
+
+        <div class="hackathon-card">
+          <div class="hackathon-meta">
+            <span class="hackathon-org">Google Developer Student Clubs</span>
+            <span class="hackathon-year">2026</span>
+          </div>
+          <h4 class="hackathon-title">Google Solution Challenge 2026: Build with AI</h4>
+          <p class="hackathon-desc">Contributed to an innovative application aligned with United Nations Sustainable Development Goals using Google Cloud and AI technologies.</p>
+        </div>
+
+        <div class="hackathon-card">
+          <div class="hackathon-meta">
+            <span class="hackathon-org">GenAI Forge</span>
+            <span class="hackathon-year">2026</span>
+          </div>
+          <h4 class="hackathon-title">GenAI Forge Hackathon 2026</h4>
+          <p class="hackathon-desc">Presented an AI-powered advisory and crop diagnosis solution for farmers, utilizing multimodal computer vision and localized multilingual voice prompting.</p>
+        </div>
+
+        <div class="hackathon-card">
+          <div class="hackathon-meta">
+            <span class="hackathon-org">CODECRAZE Hackathon</span>
+            <span class="hackathon-year">2025</span>
+          </div>
+          <h4 class="hackathon-title">CODECRAZE – Where Ideas Come to Life</h4>
+          <p class="hackathon-desc">Collaborated on end-to-end software prototyping, pitching, and live code demonstration within a 24-hour hackathon environment.</p>
+        </div>
+
+        <div class="hackathon-card">
+          <div class="hackathon-meta">
+            <span class="hackathon-org">Winnovx Engineering Forum</span>
+            <span class="hackathon-year">2025</span>
+          </div>
+          <h4 class="hackathon-title">Winnovx Hackathon &amp; Python Project EXPO</h4>
+          <p class="hackathon-desc">Demonstrated Python engineering projects at the collegiate Project EXPO, receiving recognition from industry evaluators.</p>
+        </div>
+
+        <div class="hackathon-card">
+          <div class="hackathon-meta">
+            <span class="hackathon-org">AI Agents Intensive</span>
+            <span class="hackathon-year">2026</span>
+          </div>
+          <h4 class="hackathon-title">5-Day AI Agents: Intensive Vibe Coding Course</h4>
+          <p class="hackathon-desc">Completed comprehensive practical training on autonomous AI agents, tool calling, memory management, and agentic reasoning loops.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       07. ACADEMIC FOUNDATION & EDUCATION
+       ======================================================================== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">07. Academic Foundation</span>
+        <h2 class="section-title">Education &amp; Specialization</h2>
+        <p class="section-desc">
+          Computer Science Engineering background emphasizing software architecture, algorithmic problem solving, and modern systems engineering.
+        </p>
+      </div>
+
+      <div class="edu-single-card">
+        <div class="edu-main-info">
+          <div class="edu-tag-status">Undergraduate Degree &bull; 2023 – 2027</div>
+          <h3 class="edu-degree-title">B.E., Computer Science &amp; Engineering</h3>
+          <div class="edu-college-name">Stanley College of Engineering and Technology for Women, Hyderabad</div>
+          <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.25rem; line-height: 1.6;">
+            Affiliated with Osmania University. Grounded in theoretical foundations of computation, algorithms, object-oriented systems design, relational databases, and applied machine learning.
+          </p>
+          <div class="edu-specs-list">
+            <span class="spec-chip">Data Structures &amp; Algorithms</span>
+            <span class="spec-chip">OOP Java Design</span>
+            <span class="spec-chip">Database Management (SQL)</span>
+            <span class="spec-chip">Operating Systems</span>
+            <span class="spec-chip">Computer Networks</span>
+            <span class="spec-chip">Machine Learning</span>
+          </div>
+        </div>
+
+        <div class="edu-details-side">
+          <div style="font-weight: 700; font-size: 1rem; color: var(--text-main); margin-bottom: 0.5rem;">Academic &amp; Engineering Highlights</div>
+          <ul class="exp-bullets">
+            <li class="exp-bullet-item">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Core emphasis on modular software architecture, algorithmic time-complexity analysis, and clean coding principles.</span>
+            </li>
+            <li class="exp-bullet-item">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Active builder and podium finisher across collegiate and national technical hackathons and developer programs.</span>
+            </li>
+            <li class="exp-bullet-item">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Peer mentorship on Git/GitHub version control workflows, Python scripting, and full-stack software development.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       08. CONTACT & GET IN TOUCH
+       ======================================================================== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">08. Get in Touch</span>
+        <h2 class="section-title">Let&apos;s Connect &amp; Discuss Opportunities</h2>
+        <p class="section-desc">
+          Whether you have an internship opportunity, full-stack opening, or wish to explore a collaboration, I welcome your message.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Direct Contact Channels -->
+        <div class="contact-channels">
+          <div class="contact-channel-title">Direct Contact Channels</div>
+
+          <!-- Email Item -->
+          <div class="channel-item">
+            <div class="channel-info">
+              <div class="channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div style="min-width: 0;">
+                <div class="channel-label">Email</div>
+                <div class="channel-val">naazmeensyed313@gmail.com</div>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-sm copy-trigger" data-copy-text="naazmeensyed313@gmail.com">
+              <span class="copy-feedback">Copy</span>
+            </button>
+          </div>
+
+          <!-- Phone Item -->
+          <div class="channel-item">
+            <div class="channel-info">
+              <div class="channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div style="min-width: 0;">
+                <div class="channel-label">Phone / WhatsApp</div>
+                <div class="channel-val">+91 9059869051</div>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-sm copy-trigger" data-copy-text="+919059869051">
+              <span class="copy-feedback">Copy</span>
+            </button>
+          </div>
+
+          <!-- Location Item -->
+          <div class="channel-item">
+            <div class="channel-info">
+              <div class="channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <div class="channel-label">Location</div>
+                <div class="channel-val">Hyderabad, Telangana, India</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profiles -->
+          <div class="social-profiles">
+            <a href="https://linkedin.com/in/naazmeen-syed" target="_blank" rel="noopener noreferrer" class="social-profile-link">
+              <div class="social-left">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <span>LinkedIn Profile</span>
+              </div>
+              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-primary);">&rarr;</span>
+            </a>
+
+            <a href="https://github.com/naazmeen-syed" target="_blank" rel="noopener noreferrer" class="social-profile-link">
+              <div class="social-left">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub Repositories</span>
+              </div>
+              <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-primary);">&rarr;</span>
+            </a>
+          </div>
+
+          <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.4rem; padding-top: 0.5rem; border-top: 1px solid var(--border-primary);">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <span>Response guarantee: Usually within 24 hours</span>
+          </div>
+        </div>
+
+        <!-- Interactive Contact Form -->
+        <div class="contact-form-card">
+          <h3 class="form-header-title">Send a Direct Message</h3>
+          <p class="form-header-sub">Feel free to send a message regarding software openings, internships, or questions.</p>
+
+          <div class="form-success-box" id="contact-form-success">
+            <div class="form-success-title">Message Ready to Send!</div>
+            <p class="form-success-desc">Click below to open your preferred email client with your message pre-populated:</p>
+            <div style="margin-top: 1rem;">
+              <a href="#" id="form-mailto-launcher" class="btn btn-primary" style="width: 100%;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Launch Email Client (Send)</span>
+              </a>
+            </div>
+          </div>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Your Name</label>
+              <input type="text" id="contact-name" class="form-input" placeholder="e.g. Sarah Jenkins" required />
+              <div class="form-error" id="contact-name-error"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Your Email</label>
+              <input type="email" id="contact-email" class="form-input" placeholder="sarah.jenkins@company.com" required />
+              <div class="form-error" id="contact-email-error"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject" class="form-label">Subject</label>
+              <input type="text" id="contact-subject" class="form-input" placeholder="Inquiry regarding Software Developer Role" required />
+              <div class="form-error" id="contact-subject-error"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Message</label>
+              <textarea id="contact-message" class="form-textarea" placeholder="Hello Naazmeen, I reviewed your portfolio and would like to discuss an opportunity..." required></textarea>
+              <div class="form-error" id="contact-message-error"></div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Send Message</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand-title">
+          <span class="logo-badge">N</span>
+          <span>Naazmeen</span>
+        </div>
+        <p class="footer-bio">
+          Software Developer dedicated to building reliable, high-performance software systems and responsive web applications.
+        </p>
+        <div style="margin-top: 1rem; display: flex; gap: 0.75rem;">
+          <button class="btn btn-outline btn-sm copy-trigger" data-copy-text="naazmeensyed313@gmail.com" style="background-color: #1e293b; color: #fff; border-color: #334155;">
+            <span class="copy-feedback">Copy Email</span>
+          </button>
+          <button class="btn btn-outline btn-sm open-resume-btn" style="background-color: #1e293b; color: #fff; border-color: #334155;">
+            <span>Resume</span>
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-section-title">Navigation</div>
+        <ul class="footer-links-list">
+          <li><a href="#about" class="footer-link">About Me</a></li>
+          <li><a href="#skills" class="footer-link">Verified Skills</a></li>
+          <li><a href="#projects" class="footer-link">Selected Projects</a></li>
+          <li><a href="#internships" class="footer-link">Internships (4)</a></li>
+          <li><a href="#certifications" class="footer-link">Certifications</a></li>
+          <li><a href="#education" class="footer-link">Education &amp; Specialization</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-section-title">Connect</div>
+        <ul class="footer-links-list">
+          <li><a href="https://github.com/naazmeen-syed" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub Profile</a></li>
+          <li><a href="https://linkedin.com/in/naazmeen-syed" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn Profile</a></li>
+          <li><a href="./Naazmeen_Resume.pdf" download="Naazmeen_Resume.pdf" class="footer-link">Download Resume (PDF)</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>&copy; 2026 Naazmeen. Built with vanilla HTML, CSS &amp; JavaScript.</div>
+      <div style="font-family: var(--font-mono); font-size: 0.75rem;">Stanley College &bull; CSE &bull; Class of 2027</div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL: PROJECT ARCHITECTURE & DETAILS
+       ======================================================================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <span class="card-badge" id="modal-project-badge">Category</span>
+        <button class="modal-close-btn" id="project-modal-close" aria-label="Close project modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <div>
+          <h3 class="modal-title" id="modal-project-title">Project Title</h3>
+          <p class="modal-subtitle" id="modal-project-subtitle">Project Subtitle</p>
+        </div>
+
+        <!-- Metrics -->
+        <div class="project-metrics-row" id="modal-project-metrics" style="margin: 0;"></div>
+
+        <!-- Description -->
+        <div>
+          <div class="modal-section-title">System Overview</div>
+          <p class="project-description" id="modal-project-desc" style="font-size: 0.95rem;"></p>
+        </div>
+
+        <!-- Architecture -->
+        <div>
+          <div class="modal-section-title">System Architecture</div>
+          <p class="project-description" id="modal-project-arch" style="font-size: 0.9rem; line-height: 1.6;"></p>
+        </div>
+
+        <!-- Highlights & Features -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+          <div>
+            <div class="modal-section-title">Key Engineering Highlights</div>
+            <ul class="project-highlights-list" id="modal-project-highlights"></ul>
+          </div>
+          <div>
+            <div class="modal-section-title">Core System Features</div>
+            <ul class="project-highlights-list" id="modal-project-features"></ul>
+          </div>
+        </div>
+
+        <!-- Tech Stack -->
+        <div>
+          <div class="modal-section-title">Technologies Employed</div>
+          <div class="project-tech-chips" id="modal-project-tech"></div>
+        </div>
+
+        <!-- Footer Actions -->
+        <div style="display: flex; gap: 0.75rem; padding-top: 1rem; border-top: 1px solid var(--border-primary);">
+          <a href="https://github.com/naazmeen-syed" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+            <span>View Source on GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL: RESUME VIEWER & DOWNLOAD
+       ======================================================================== -->
+  <div class="modal-overlay" id="resume-modal" role="dialog" aria-modal="true" aria-labelledby="modal-resume-title">
+    <div class="modal-card" style="max-width: 920px;">
+      <div class="modal-header">
+        <div>
+          <h3 id="modal-resume-title" style="font-size: 1.1rem; font-weight: 800; color: var(--text-primary);">
+            Naazmeen — Official Resume
+          </h3>
+          <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); margin-top: 0.15rem;">
+            B.E. CSE &bull; Stanley College &bull; Class of 2027
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <!-- Tabs Switcher -->
+          <div class="resume-tabs">
+            <button class="resume-tab-btn active" data-tab="overview">Overview Sheet</button>
+            <button class="resume-tab-btn" data-tab="pdf">PDF Document</button>
+          </div>
+
+          <!-- Download Button -->
+          <a href="./Naazmeen_Resume.pdf" download="Naazmeen_Resume.pdf" class="btn btn-primary btn-sm">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Download PDF</span>
+          </a>
+
+          <button class="modal-close-btn" id="resume-modal-close" aria-label="Close resume modal">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <!-- Overview Sheet Tab -->
+        <div id="resume-view-overview">
+          <!-- Summary Header -->
+          <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-primary); border-radius: var(--radius-md); padding: 1.25rem; margin-bottom: 1.5rem;">
+            <div style="font-size: 1.25rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.25rem;">
+              Naazmeen Syed
+            </div>
+            <div style="font-size: 0.85rem; color: var(--accent-primary); font-weight: 600; margin-bottom: 0.5rem;">
+              Aspiring Software Developer &bull; Full-Stack Developer
+            </div>
+            <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); display: flex; flex-wrap: wrap; gap: 0.75rem;">
+              <span>Email: naazmeensyed313@gmail.com</span>
+              <span>&bull;</span>
+              <span>Phone: +91 9059869051</span>
+              <span>&bull;</span>
+              <span>Hyderabad, Telangana</span>
+            </div>
+          </div>
+
+          <!-- Section: Education -->
+          <div style="margin-bottom: 1.5rem;">
+            <div class="modal-section-title">Education</div>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <div style="background-color: var(--bg-card); border: 1px solid var(--border-primary); border-radius: var(--radius-sm); padding: 0.85rem;">
+                <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.9rem;">
+                  <span>Stanley College of Engineering and Technology for Women</span>
+                  <span style="font-family: var(--font-mono); color: var(--accent-primary);">Class of 2027</span>
+                </div>
+                <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.2rem;">B.E. Computer Science and Engineering (2023 – 2027) &bull; Hyderabad, Telangana</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section: Key Experience -->
+          <div style="margin-bottom: 1.5rem;">
+            <div class="modal-section-title">Internship Experience</div>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <div style="background-color: var(--bg-card); border: 1px solid var(--border-primary); border-radius: var(--radius-sm); padding: 0.85rem;">
+                <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.9rem;">
+                  <span>Indian Servers Pvt. Ltd. — Artificial Intelligence &amp; Cyber Security Intern</span>
+                  <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">Apr 2026 – Jun 2026</span>
+                </div>
+                <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.35rem;">
+                  Automated security evaluation pipelines and hands-on ML model deployment protocols.
+                </p>
+              </div>
+
+              <div style="background-color: var(--bg-card); border: 1px solid var(--border-primary); border-radius: var(--radius-sm); padding: 0.85rem;">
+                <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.9rem;">
+                  <span>InternPe — Java Programming Intern</span>
+                  <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted);">Apr 2026 – May 2026</span>
+                </div>
+                <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.35rem;">
+                  Engineered Java OOP applications, exception handling, and algorithmic problem-solving.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section: Key Honors -->
+          <div>
+            <div class="modal-section-title">Competitive Honors</div>
+            <ul class="project-highlights-list">
+              <li class="project-highlight-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>Secured 3rd Rank in AI-thon Competition</strong> among collegiate engineering teams.</span>
+              </li>
+              <li class="project-highlight-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>Top Prompt Generator Award</strong> conferred by the Google Student Ambassador Program.</span>
+              </li>
+              <li class="project-highlight-item">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>AMD Developer Hackathon: ACT II</strong> Track 2 (Video Captioning) Finalist.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- PDF Document Embed Tab -->
+        <div id="resume-view-pdf" style="display: none;">
+          <div class="resume-iframe-container">
+            <iframe src="./Naazmeen_Resume.pdf" title="Naazmeen Official Resume PDF" class="resume-iframe"></iframe>
+          </div>
+          <div style="margin-top: 1rem; text-align: center;">
+            <a href="./Naazmeen_Resume.pdf" download="Naazmeen_Resume.pdf" class="btn btn-primary btn-sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Official PDF Document</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       FLOATING BACK TO TOP BUTTON
+       ======================================================================== -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Custom Scripts -->
+  <script src="./js/script.js"></script>
+</body>
+</html>
